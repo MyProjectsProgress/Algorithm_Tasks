@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/3rd Year 1st Term/Algorithms/Assignments/Assignment 1/fibonacci_huge/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+

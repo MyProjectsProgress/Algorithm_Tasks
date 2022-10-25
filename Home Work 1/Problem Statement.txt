@@ -1,0 +1,20 @@
+You have n chairs that are to seat mathematicians and physicists. But no two 
+physicists should be seated next to each other.  
+
+If n = 3, these are some valid seatings: MMP, MPM. But PPM is not a valid seating.
+What are the number of valid seatings given n?
+
+Find a recurrence relation f(n) to give the number of valid seatings for any n.
+Show your work
+
+					Solution
+This problem will be solved with the same sequance of fibonacci numbers for n>2.
+Proof:
+@ n = 0: f(n) = 0
+@ n = 1: f(n) = 2 which are (p,m)
+@ n = 2: f(n) = 3 which are (mp , pm, mm) 
+@ n = 3: f(n) = 5 which are (mmp, pmm, mpm, pmp, mmm)
+@ n = 4: f(n) = 8 which are (pmmm, mpmp, pmpm, pmmp, mpmm, mmpm, mmmp, mmmm)
+@ n = 5: f(n) = 13 which are ( the same pattern is done)
+so according to fibonacci equation, the solution of this problem is 
+fib(n) = fib(n-2) + fib(n-1) for n>2 as 

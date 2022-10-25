@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/3rd Year 1st Term/Algorithms/Assignments/Assignemnt 1/Code_Part_1/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+
